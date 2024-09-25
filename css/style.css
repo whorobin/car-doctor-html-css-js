@@ -7,20 +7,20 @@ body {
 .nav-button {
     background-color: none;
     border-radius: 8px;
-    padding: 20px 25px;
+    padding: 15px 20px;
     cursor: pointer;
     border: 0;
     color: black;
     background-color: #ee5536;
     margin-right: 10px;
     font-size: medium;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .btn-primary {
     background-color: none;
     border-radius: 8px;
-    padding: 20px 25px;
+    padding: 15px 20px;
     cursor: pointer;
     border: 1px solid #ee5536;
     color: #ee5536;
@@ -98,6 +98,14 @@ nav li a {
     font-weight: 700;
 }
 
+.menu-icon {
+    cursor: pointer;
+    width: 38px;
+    height: 40px;
+    display: none;
+}
+
+/* banner  */
 .carousel {
     display: flex;
     justify-content: space-between;
@@ -248,13 +256,13 @@ nav li a {
     color: white;
     font-size: large;
     font-weight: 400;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .footer-icons {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 15px;
     width: 36px;
     height: 34px;
     margin-top: 20px;
@@ -265,18 +273,50 @@ nav li a {
 
 /* responsive media queries  */
 @media screen and (max-width: 576px) {
-    .banner-container {
+
+    /* navbar  */
+    nav ul {
+        position: absolute;
+        top: 65px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background-color: rgba(7, 0, 0, 0.685);
+        text-align: center;
+        gap: 0;
+        overflow: hidden;
+    }
+
+    #menuList {
+        transition: all 0.5s;
+    }
+
+    nav ul li {
+        padding: 10px;
+    }
+
+    .menu-icon {
+        display: block;
+        padding-right: 20px;
+    }
+
+    nav {
         width: 100%;
-        background-repeat: no-repeat;
-        padding-bottom: 30%;
-        padding-left: 35px;
-        height: 700px;
+    }
+
+    /* banner  */
+
+    .banner-container {
+        margin-top: 0px;
+        padding: 20px;
+        bottom: 50px;
     }
 
     .banner-title {
-        width: 70%;
+        width: 60%;
         color: white;
-        font-size: 38px;
+        font-size: 32px;
+        padding-top: 35px;
     }
 
     .banner-description {
@@ -284,7 +324,7 @@ nav li a {
     }
 
     .banner-btn {
-        padding: 10x;
+        padding: 20px;
     }
 
     /* .service section  */
@@ -305,10 +345,16 @@ nav li a {
         padding: 20px;
     }
 
+
 }
 
 
 @media screen and (min-width:576px) and (max-width:960px) {
+
+    nav {
+        width: 100%;
+        padding-right: 20px;
+    }
 
     /* .service section  */
     .service-card {
