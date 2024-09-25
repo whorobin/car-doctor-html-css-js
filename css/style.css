@@ -4,10 +4,32 @@ body {
     margin: auto;
 }
 
+.btn-primary {
+    background-color: none;
+    border-radius: 8px;
+    padding: 20px 25px;
+    cursor: pointer;
+    border: 1px solid #FF3811;
+    color: #FF3811;
+    margin-right: 10px;
+    font-size: medium;
+    font-weight: 700;
+    background-color: rgba(34, 32, 32, 0.356);
+}
+
+.btn-primary:hover {
+    background-color: #FF3811;
+    color: black;
+}
+
+
+/* header section  */
 nav {
+    position: fixed;
+    width: 1250px;
     display: flex;
     justify-content: space-between;
-    background-color: rgba(34, 32, 32, 0.226);
+    background-color: rgba(34, 32, 32, 0.356);
     padding: 15px;
 }
 
@@ -22,11 +44,34 @@ nav>ul {
 nav li {
     list-style: none;
     margin-right: 30px;
-    font-weight: 500;
-    font-size: 1rem;
 }
 
 nav li a {
     text-decoration: none;
     color: white;
+    font-size: large;
+    font-weight: 700;
+}
+
+.nav-button {}
+
+
+/* banner section  */
+.banner-container {
+    background-image: url('../images/banner/5.png');
+    background-repeat: no-repeat;
+    padding: 75px;
+    height: 700px;
+}
+
+.banner-title {
+    width: 40%;
+    color: white;
+    font-size: 48px;
+}
+
+.banner-description {
+    color: white;
+    width: 40%;
+    margin-top: 1px;
 }
