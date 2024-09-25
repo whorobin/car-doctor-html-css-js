@@ -109,26 +109,27 @@ nav li a {
 .carousel {
     display: flex;
     justify-content: space-between;
-    margin-top: 70px;
+    /* width: 60; */
+    margin-top: 10px;
     cursor: pointer;
 }
 
 .carousel1 {
-    height: 50px;
-    width: 50px;
-    color: black;
-    text-align: center;
-    background-color: white;
-    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    /* color: black; */
+    /* text-align: center; */
+    /* background-color: white; */
+    /* border-radius: 50%; */
 }
 
 .carousel2 {
-    height: 50px;
-    width: 50px;
-    color: black;
-    text-align: center;
+    height: 40px;
+    width: 40px;
+    /* color: black; */
+    /* text-align: center;
     background-color: white;
-    border-radius: 50%;
+    border-radius: 50%; */
 }
 
 
@@ -137,7 +138,7 @@ nav li a {
     background-image: url('../images/banner/5.png');
     background-repeat: no-repeat;
     padding: 75px;
-    height: 400px;
+    /* height: 400px; */
 }
 
 .banner-title {
