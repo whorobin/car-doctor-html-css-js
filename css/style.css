@@ -210,6 +210,11 @@ nav li a {
     margin-bottom: 30px;
 }
 
+.contact-card:hover {
+    border: 1px solid #ee5536;
+    border-radius: 10px;
+}
+
 /* responsive media queries  */
 @media screen and (max-width: 576px) {
     .banner-container {
@@ -239,12 +244,22 @@ nav li a {
         grid-template-columns: 1fr;
         padding: 20px;
     }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
 }
 
 
 @media screen and (min-width:576px) and (max-width:960px) {
     .service-card {
         grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
         padding: 20px;
     }
 }
