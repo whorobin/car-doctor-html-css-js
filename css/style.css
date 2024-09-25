@@ -9,8 +9,8 @@ body {
     border-radius: 8px;
     padding: 20px 25px;
     cursor: pointer;
-    border: 1px solid #FF3811;
-    color: #FF3811;
+    border: 1px solid #ee5536;
+    color: #ee5536;
     margin-right: 10px;
     font-size: medium;
     font-weight: 700;
@@ -18,7 +18,7 @@ body {
 }
 
 .btn-primary:hover {
-    background-color: #FF3811;
+    background-color: #ee5536;
     color: black;
 }
 
@@ -53,7 +53,44 @@ nav li a {
     font-weight: 700;
 }
 
-.nav-button {}
+.nav-button {
+    background-color: none;
+    border-radius: 8px;
+    padding: 20px 25px;
+    cursor: pointer;
+    /* border: 1px solid #FF3811; */
+    border: 0;
+    color: black;
+    background-color: #ee5536;
+    margin-right: 10px;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.carousel {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+.carousel1 {
+    height: 50px;
+    width: 50px;
+    color: black;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.carousel2 {
+    height: 50px;
+    width: 50px;
+    color: black;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+}
 
 
 /* banner section  */
