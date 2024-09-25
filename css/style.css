@@ -235,6 +235,33 @@ nav li a {
     height: 24px;
 }
 
+/* footer section  */
+.footer-container {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    width: 36px;
+    height: 34px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
 
 /* responsive media queries  */
 @media screen and (max-width: 576px) {
